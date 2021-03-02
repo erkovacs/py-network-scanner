@@ -8,7 +8,7 @@ try:
     hostrange = sys.argv[1]
     portrange = sys.argv[2]
 except IndexError:
-    print("Usage: ping.py hostrange [portrange]")
+    print("Usage: main.py hostrange [portrange]")
     sys.exit(1)
 
 stats = {
